@@ -1,0 +1,274 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+/*===== COLORES =====*/
+
+:root {
+    --color: #1C1C1C;
+    --frontEnd: RGB(237, 240, 242);
+
+    /* --frontEnd: RGB(188, 206, 251); */
+    --desing: #ECDBFA;
+
+    /* Possiveis cores*/
+    --text-color: #4070F4;
+    --azul: #45f3ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-size: .938rem;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: var(--color);
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+.navbar {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.home__social-icon {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.nav__toggle {
+    font-weight: bold;
+
+}
+
+.navbar-menu-item {
+    display: flex;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+section {
+    min-height: 100vh;
+    padding: 128px 0;
+    height: 100%;
+}
+
+/* Vou rancar isso */
+.conteudo {
+    margin-bottom: 42px;
+}
+
+.home {
+    display: flex;
+    padding: 5rem 1rem;
+}
+
+.largura {
+    width: 50rem;
+    left: 100rem;
+
+}
+
+.home .largura h1 {
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 42px;
+    padding: 0 12rem;
+}
+
+.home .largura h2 {
+    padding: 0 8rem;
+    font-size: 2.5rem;
+    color: var(--branco);
+}
+
+.home .largura h2 span {
+    color: var(--text-color);
+}
+
+.home .largura h3 {
+    padding: 0 8rem;
+    font-size: 2.5rem;
+    color: var(--branco);
+}
+
+.home .largura .social {
+    padding: 0 10rem;
+    line-height: 72px;
+}
+
+.home .largura .social .home__social-icon {
+
+    padding: 0.5rem;
+}
+
+.home .home-img-css {
+    display: inline-flex;
+    border-radius: 52% 48% 0% 100% / 50% 43% 57% 50%;
+    padding: 0 5rem;
+    width: 30rem;
+    height: 23rem;
+}
+
+
+.frontEnd {
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--frontEnd);
+}
+
+.frontEnd .row .aling_row {
+    display: inline-flex;
+    padding: 2rem;
+
+}
+
+
+.frontEnd .row h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 42px;
+    padding: 0 7rem;
+    color: blueviolet
+}
+
+
+.frontEnd .row .img_front {
+    height: 30rem;
+    width: 50rem;
+    padding: 3rem;
+    border-radius: 5rem;
+}
+
+
+.frontEnd .row p {
+    color: #4CD7D0;
+    padding: 2rem;
+    font-size: 1.4rem;
+    height: 50%;
+}
+
+
+.frontEnd .row .icon {
+    padding: 1rem;
+    font-size: 3rem;
+    height: 10%;
+}
+
+.frontEnd .row .icon .html {
+    color: red;
+}
+
+.frontEnd .row .icon .css {
+    color: blue;
+}
+
+.frontEnd .row .icon .js {
+    color: yellow;
+}
+
+.designer {
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--desing);
+}
+
+.designer h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 42px;
+    padding: 0 7rem;
+    text-align: center;
+    color: #ffb6c1;
+}
+
+
+.designer .row_designer {
+
+    text-align: center;
+    align-items: center;
+    padding: 0 42rem 0 0;
+}
+
+.designer .row_designer .aling_designer {
+    display: inline-flex;
+    padding: 2rem;
+}
+
+.designer h2 {
+    padding: 3rem;
+    text-align: left;
+    line-height: 42px;
+    margin: 0 5rem;
+    width: 30rem;
+    color: #D8A7B1;
+    font-size: 1.2rem;
+    height: 50%;
+}
+
+.designer .img_designer {
+    height: 30rem;
+    width: 40rem;
+    padding: 3rem;
+    border-radius: 5rem;
+}
+
+.row_text {
+    text-align: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+
+.rodape {
+    border-top: 0.4px solid #fff2e7;
+    padding: 42px;
+    background-color: #4C5270;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.rodape h1 {
+    font-size: 2rem;
+    color: aqua;
+    margin-bottom: 2rem;
+}
+
+.rodape .rodape_social a {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin: 0 2rem;
+    color: aqua;
+}
