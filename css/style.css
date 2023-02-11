@@ -37,15 +37,13 @@ section {
 
 .header {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
+    justify-content: space-around;
+    padding: 1.2rem;
     color: var(--color);
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #fff;
     box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -53,29 +51,45 @@ section {
     display: flex;
     gap: 1rem;
     align-items: center;
-
+    color: var(--color);
 }
 
 .logo {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
-.home__social-icon {
-    margin-bottom: 2rem;
-    font-size: 1.4rem;
+
+
+.navbar .nav_list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    text-align: center;
 }
 
-.nav__toggle {
-    font-weight: bold;
-
+.navbar .nav_list li {
+    padding: 0 1rem;
 }
 
-.navbar-menu-item {
+.navbar .navbar-menu-item {
     display: flex;
     font-weight: 400;
     font-size: 1.2rem;
+    position: relative;
 }
+
+/* menu quando for celular */
+.nav__toggle {
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+
 
 section {
     min-height: 100vh;
@@ -115,6 +129,7 @@ section {
 }
 
 .home .largura h2 span {
+    list-style: none;
     color: var(--text-color);
 }
 
@@ -127,6 +142,11 @@ section {
 .home .largura .social {
     padding: 0 10rem;
     line-height: 72px;
+}
+
+.home__social-icon {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
 }
 
 .home .largura .social .home__social-icon {
@@ -199,6 +219,9 @@ section {
     color: yellow;
 }
 
+
+
+
 .designer {
     width: 100%;
     padding: 2rem;
@@ -245,18 +268,6 @@ section {
     border-radius: 5rem;
 }
 
-.c {
-    background: #BD97CB;
-}
-
-.c h1 {
-    font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 42px;
-    padding: 0 7rem;
-    color: #FBC740
-}
-
 .row_text {
     text-align: center;
     align-items: center;
@@ -284,3 +295,24 @@ section {
     margin: 0 2rem;
     color: aqua;
 }
+
+
+/* efeito no home */
+.home-img-css {
+    visibility: hidden;
+}
+
+.largura {
+    visibility: hidden;
+}
+
+.icon {
+    visibility: hidden;
+}
+
+
+/* fim do efeito */
+
+
+
+/* Responsividade */
