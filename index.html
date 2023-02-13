@@ -18,26 +18,39 @@
 </head>
 
 <body>
-  <header class="header">
-    <span class="logo"> Lucas</span>
-    <nav class="navbar">
-        <ul class="nav_list">
-          <li > <a class="navbar-menu-item"  href="#home">Home</a></li>
-          <li > <a class="navbar-menu-item"  href="#frontEnd">Front-End</a></li>
-          <li > <a class="navbar-menu-item"  href="#designer">Designer Gráfico</a></li>
-          <li > <a class="navbar-menu-item" >C#</a></li>
-        </ul>
+  <header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <span>lucas</span>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#frontEnd">Front-End</a></li>
+                <li class="nav-item"><a class="nav-link" href="#designer">Designer Gráfico</a></li>
+            </ul>
+        </div>
+       
+
+        <div class="mobile-menu-icon" onclick="menuShow()">
+          <i class="fa-solid fa-bars icon"></i>
+        </div>
     </nav>
-    <div class="nav__toggle" id="nav-toggle">
-      <i class="fa-solid fa-bars"></i>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a class="nav-link"href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link"href="#frontEnd">Front-End</a></li>
+            <li class="nav-item"><a class="nav-link"href="#designer">Designer Gráfico</a></li>
+        </ul>
+
     </div>
-  </header>
+</header>
   <!--Corpo-->
   <main class="conteudo">
     <!--Inicio do Home-->
     <section class="home" id="home">
       <div class="largura">
-        <h1>Olá !</h1>
+        <h1>Olá!</h1>
         <h2>Eu sou <span>Lucas </span></h2>
         <h3>vem ver algumas coisas que eu gosto</h3>
 
